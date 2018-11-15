@@ -1,0 +1,8 @@
+
+variables:
+  V_MAJOR: 2
+  V_MINOR: 0
+  V_PATCH: 0
+  V_RC: 0
+  VERSION_NAME: "${V_MAJOR}.${V_MINOR}.${V_PATCH}"
+#(major * 1000000) + (minor * 10000) + (patch * 100) + candidate;
